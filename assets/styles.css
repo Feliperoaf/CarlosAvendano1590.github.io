@@ -1,12 +1,17 @@
 .body{
     margin: 0;
     color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .perfil{
     height: -150px;
     width: -150px;
 }
-  
+
+.margen {
+    margin: 0 5%;
+}
+
 .cabecera{
     display: flex;
     background-image: url("/assets/img/fondo.jpg");
@@ -23,13 +28,31 @@
 .formacion{
     text-align: center;
     color: black;
+    padding-bottom: 50px;
 }
 .iconos{
     font-size: 70px;
 }
 .proyectos{
     background-color: rgb(228, 236, 236);
-    height: 2900px;
-    
+    height: fit-content;
+    padding: 30px 0;
 }
 
+hr {
+    border: none;
+    height: 3px;
+    background-color: #0DCAF0;
+    border-radius: 5px;
+    opacity: 100%;
+    margin: 0% 5%;
+    margin: 50px;
+}
+
+.row>* {
+    padding: 0;
+}
+
+.caja {
+    margin: 0 2px;;
+}
